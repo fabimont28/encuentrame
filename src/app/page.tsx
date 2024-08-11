@@ -1,13 +1,13 @@
-import { Container } from '@/components/container'
-import { Button } from '@/components/ui/button'
+import { Container } from '@/src/presentation/components/common/container'
+import { Button } from '@/src/presentation/components/common/button'
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@/components/ui/carousel'
-import { Input } from '@/components/ui/input'
+} from '@/src/presentation/components/common/carousel'
+import { Input } from '@/src/presentation/components/common/input'
 import Image from 'next/image'
 
 export default function Home() {
